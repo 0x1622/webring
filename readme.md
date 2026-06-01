@@ -17,19 +17,19 @@ the position of your entry in the array determines where you sit in the ring ord
 
 ## how to add prev / next / random to your site?
 
-the base url for the server is `https://threadlocked.0xmukesh.workers.dev`. to add previous/next/random buttons to your site, use the following html snippet:
+the base url for the server is `https://ring.seggs.lol`. to add previous/next/random buttons to your site, use the following html snippet:
 
 ```html
 <!-- replace "your-name" with the exact name from webring.json -->
-<a href="https://threadlocked.0xmukesh.workers.dev/redirect?from=your-name&dir=prev">
+<a href="https://ring.seggs.lol/redirect?from=your-name&dir=prev">
   ← previous site
 </a>
 
-<a href="https://threadlocked.0xmukesh.workers.dev/random">
+<a href="https://ring.seggs.lol/random">
   random site
 </a>
 
-<a href="https://threadlocked.0xmukesh.workers.dev/redirect?from=your-name&dir=next">
+<a href="https://ring.seggs.lol/redirect?from=your-name&dir=next">
   next site →
 </a>
 ```
